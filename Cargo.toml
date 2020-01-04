@@ -1,0 +1,16 @@
+[package]
+name = "ScrapeRaptors"
+version = "0.1.0"
+authors = ["mdraiyanbinsayeed"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+select = "0.4.3"
+reqwest = { version = "0.10", features = ["json"] }
+tokio = { version = "0.2", features = ["full"] }
+scraper = "*"
+prettytable-rs = "*"
+serde = "1.0.104"
+serde_derive = "1.0.104"
